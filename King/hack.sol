@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.6.0;
 
-import "./hadcoins.sol";
+import "./King.sol";
 
 contract Test {
     King public king;
@@ -14,7 +14,7 @@ contract Test {
         (bool sent, bytes memory data) = address(king).call{
             value: address(this).balance
         }("");
-        require(sent, "fdfd");
+        require(sent, "transaction failed");
     }
 
     function getMoney() public payable {}

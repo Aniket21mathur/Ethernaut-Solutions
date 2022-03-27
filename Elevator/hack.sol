@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.6.0;
 
-import "./hadcoins.sol";
+import "./Elevator.sol";
 
 contract Test {
     Elevator public ele;

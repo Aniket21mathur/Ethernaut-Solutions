@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.6.0;
 
-import "./hadcoins.sol";
+import "./Re-entrancy.sol";
 
 contract Test {
     Reentrance public re;
