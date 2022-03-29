@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.6.0;
 
-import "./hadcoins.sol";
+import "./Dex.sol";
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v3.4.0/contracts/token/ERC20/IERC20.sol";
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v3.4.0/contracts/token/ERC20/ERC20.sol";
 
@@ -18,13 +18,6 @@ contract Test {
         dex.approve(token1, 200);
         dex.approve(token2, 200);
     }
-
-    // function price() external view returns (uint256) {
-
-    //     bool sold = shp.isSold();
-    //     if (!sold) return 100;
-    //     else return 50;
-    // }
 
     function transferTokenToDex() public {
         dex.add_liquidity(token2, 10);
