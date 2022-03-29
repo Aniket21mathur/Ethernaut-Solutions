@@ -5,6 +5,8 @@ played in the Ethereum Virtual Machine. Each level is a smart contract that need
 
 Here are the writeups of my solutions for all the levels. Ironically I will not recommend you to look at these or any other writeups, solve it yourself to get a high dopamine rush 😛
 
+[Link](https://lace-cough-9cf.notion.site/Ethernaut-Solutions-392c14212c4047b49c9743b9e069c880) to notion documentation.
+
 # 0. Hello Ethernaut
 
 It was more of an introductory level, helping you set up for the upcoming levels and giving bits of the basic but necessary information. So let’s look into `contract.info()` as hinted in point number 9.
