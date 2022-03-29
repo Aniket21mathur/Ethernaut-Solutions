@@ -1,6 +1,6 @@
 # Ethernaut Solutions
 
-The Ethernaut is a Web3/Solidity-based wargame inspired by [overthewire.org](https://overthewire.org/),
+The [Ethernaut](https://ethernaut.openzeppelin.com/) is a Web3/Solidity-based wargame inspired by [overthewire.org](https://overthewire.org/),
 played in the Ethereum Virtual Machine. Each level is a smart contract that needs to be 'hacked'.
 
 Here are the writeups of my solutions for all the levels. Ironically I will not recommend you to look at these or any other writeups, solve it yourself to get a high dopamine rush 😛
